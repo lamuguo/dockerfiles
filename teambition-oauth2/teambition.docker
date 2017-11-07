@@ -1,0 +1,12 @@
+FROM node:9
+
+RUN npm install --global coffeescript
+
+WORKDIR /code
+RUN git clone https://github.com/teambition/openapi-examples
+
+WORKDIR /code/openapi-examples/todomvc
+ADD config.json config.json
+RUN npm install
+ENTRYPOINT ["coffee", "src/app.coffee"]
+

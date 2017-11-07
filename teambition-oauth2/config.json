@@ -1,0 +1,6 @@
+{
+    "client_id": "31a44340-c2b4-11e7-a7b1-77f798a669b5",
+    "client_secret": "18dbf9dc-99f8-4aba-82f8-cd6bacb44b66",
+    "redirect_uri": "http://he2.io:8080/login/callback",
+    "_tasklistId": "this is your _tasklistId"
+}
